@@ -1,0 +1,552 @@
+﻿* {margin:0;
+   padding:0;
+}
+
+.wrapper {
+position: relative;
+background-color: red;
+width: 1000px ; 
+margin: 0 auto ; 
+}
+ 
+.wrapper header{ 
+    margin-left: 44px; }
+
+.baner {margin-top: 49px;
+    position: absolute;} 
+
+.telefon {
+    margin-top: 17px ;
+    margin-left : 6px;
+    float : left;
+}
+
+.nomer {
+    margin-left : 2px;
+    margin-top: 17px ;
+    font-size: 19px;
+    font-family: Arial , Tahoma , sans-serif ;
+    float : left; 
+    letter-spacing: 0px ;
+}
+.form1 {
+    position: absolute ; 
+    margin-left: 297px;
+} 
+.form1 form { 
+ background: linear-gradient( #1c5e7f , #14496c );  
+    float : left;
+    margin-left : 16px; 
+    padding : 3px 3px 3px 25px ;
+    margin-top: 12px;
+    border-radius : 3px;
+
+} 
+.form1 form input { 
+    width : 110px ; 
+    height: 15px ;
+    margin-right: 7px;
+    float : left;
+}
+.registr { 
+    font-size: 12px;
+    font-family: Lucida  , Tahoma , sans-serif ;
+    float : left;
+    margin-right: 15px;
+    color : white ; 
+    padding-top: 2px;
+
+ }
+
+ .form1 form a { 
+    font-size: 12px;
+    font-family: Lucida  , Tahoma , sans-serif ;
+    float : left;
+    margin-right: 12px;
+    color : grey ; 
+    padding-top: 2px;
+
+
+  } 
+
+.menu_header {
+
+    
+   margin-top : 291px;
+    position :absolute;
+    overflow: hidden;
+    background: linear-gradient( #505860 , #050506 );
+    margin-left: 43px ;
+    border-radius: 5px;
+    padding-left: 130px;
+    box-shadow: 4px 4px 5px grey;
+
+}
+
+
+.menu_header li {
+    float : left;
+    list-style : none;
+    ;
+   
+}
+.menu_header a { 
+
+    display:block;
+   color : #b1bcc0;
+   line-height: 15px;
+    padding: 10px 16px 10px;
+    text-decoration : none;
+    font-size : 15px; 
+    font-family: Lucida  , Tahoma , sans-serif ;
+    letter-spacing: 0px;
+    
+    } 
+    .menu_header a:hover {
+
+        border-radius: 20px;
+        background : #164e70;
+        margin-top: 3px;
+        height: 9px;
+    }
+
+    .koshuk { padding-left:35px;
+        padding-top : 5px;
+        float : left;
+     }
+     .koshuktovar {float : left;
+    padding: 10px 15px;
+    font-size : 11px;
+    font-family: Arial  , Tahoma , sans-serif ;
+    color : #b1bcc0;
+
+     }
+
+     .koshuksuma {
+    float : left;
+    padding: 10px 15px;
+    font-size : 11px;
+    font-family: Arial  , Tahoma , sans-serif ;
+    color : #b1bcc0;
+
+     }
+
+
+     /*!------------------------content----------------! */
+
+     .boxkatalog {
+    margin-top: 490px;
+    margin-left: 43px;
+    width: 190px;
+    position :absolute;}
+
+    .katalog {
+        width: 181px;
+        height: 25px;
+        border : 1px solid #114165;
+     border-radius : 15px; 
+     box-shadow: 4px 4px 5px grey;}
+     
+
+    .icon1 
+     {  
+    padding-left: 1px;
+    margin-top :2px; 
+    position: absolute;
+    overflow: hidden;
+     }
+
+     .katalogname 
+     {font-size : 14px; 
+    font-family: Lucida  , Tahoma , sans-serif ;
+    color: #114165;
+    margin-top :3px;
+    margin-left: 25px;
+    padding: 1px ;
+    }
+    
+    .shunu {
+        margin-top: 14px;
+        width: 150px;
+        height: 25px;
+        border : 1px solid #114165;
+     border-radius : 15px; 
+     }
+     .Disku {
+        margin-top: 16px;
+        width: 150px;
+        height: 25px;
+        border : 1px solid #114165;
+     border-radius : 15px; 
+     }
+
+    .Boltu {
+        margin-top: 16px;
+        width: 150px;
+        height: 25px;
+        border : 1px solid #114165;
+     border-radius : 15px; 
+     
+     }
+     
+
+    .icon2 
+     {  
+    padding-left: 4px;
+    margin-top :0px; 
+    position: absolute;
+    overflow: hidden;
+     }
+
+     .katalogname2
+     {font-size : 14px; 
+    font-family: Lucida  , Tahoma , sans-serif ;
+    color: #114165;
+    margin-top :3px;
+    margin-left: 30px;
+    padding: 1px ;
+    }
+    .naimenovanie {
+        padding-left: 35px;
+        font-style : none;
+
+    }
+    .naimenovanie li {
+    font-style : none;
+    list-style-type: circle;
+    }
+
+    .naimenovanie a {
+
+        display:block;
+        color: #114165;
+        padding-top: 3px;
+        padding-left: 11px;
+        font-size : 14px; 
+        font-family: Lucida  , Tahoma , sans-serif ;
+        font-style : none;
+    }
+    
+    .naimenovanie a:hover  {
+        font-weight : bold;
+        font-style : italic; 
+        color :#0c3256 ;
+        padding-bottom: 1px;
+        padding-right: 1px;
+        font-size : 14px; 
+        font-family: Arial  , Tahoma , sans-serif ;
+    }
+     
+     .TOVAR1 {
+    margin-top: 487px;
+    margin-left: 234px;
+    width: 525px;
+    height: 630px;
+    position :absolute;
+    background: linear-gradient( #e4e7e8 , #93a7b0 );
+    border-radius :5px ;
+    
+
+    }
+    .TOVAR2 {
+    margin-top: 689px;
+    margin-left: 233px;
+    position :absolute;
+    border-radius :5px ;
+    }
+    .TOVAR3 {
+    margin-top: 893px;
+    margin-left: 234px;
+    position :absolute;
+    border-radius :5px ;
+    }
+    .Goodyear {
+        width: 175px;
+    
+    float:left;
+    
+    
+    } 
+
+    .Goodyeartext{
+    color : #206988;
+    font-size : 15px; 
+    font-family: Lucida  , Tahoma , sans-serif ;
+    padding-left: 57px ;
+    padding-top: 9px;
+    font-weight : bold;
+    }
+
+    .Goodyeartext1{
+    color : #114165 ;
+    font-size : 17px; 
+    font-family: Arial , Tahoma , sans-serif ;
+    padding-left: 60px ;
+    padding-top: 130px;
+    font-weight : bold;
+    font-style : italic; 
+    }
+
+    .Goodyear p {
+        color: #494e50;
+        padding-left: 37px;
+        font-size : 14px;
+        font-family: Lucida  , Tahoma , sans-serif ;
+    }
+    .Goodyear img {
+        padding-top: 4px;
+        padding-left: 53px;
+        position: absolute;
+    } 
+    .GoodyearBg { 
+    position: absolute;
+    margin-left: 24px;
+    width: 135px;
+    height: 125px;
+    background: white;
+    border : 1px solid #bfc6c8;
+    border-radius : 5px;
+     }  
+
+.Nokian {
+        width: 175px;
+    
+    float:left;
+    
+    
+    } 
+
+    .Nokiantext{
+    color : #206988;
+    font-size : 15px; 
+    font-family: Lucida  , Tahoma , sans-serif ;
+    padding-left: 59px ;
+    padding-top: 9px;
+    font-weight : bold;
+    }
+
+    .Nokiantext1{
+    color : #114165 ;
+    font-size : 17px; 
+    font-family: Arial , Tahoma , sans-serif ;
+    padding-left: 49px ;
+    padding-top: 131px;
+    font-weight : bold;
+    font-style : italic; 
+    }
+
+    .Nokian p {
+        color: #494e50;
+        padding-left: 40px;
+        font-size : 14px;
+        font-family: Lucida  , Tahoma , sans-serif ;
+    }
+    .Nokian img {
+        padding-top: 4px;
+        padding-left: 50px;
+        position: absolute;
+    } 
+    .NokianBg { 
+    position: absolute;
+    margin-left: 16px;
+    width: 135px;
+    height: 125px;
+    background: white;
+    border : 1px solid #bfc6c8;
+    border-radius : 5px;
+     }  
+
+    .Hankook {
+        width: 175px;
+   
+    float:left;
+    
+    } 
+    .Hankooktext{
+    color : #206988;
+    font-size : 15px; 
+    font-family: Lucida  , Tahoma , sans-serif ;
+    padding-left: 47px ;
+    padding-top: 9px;
+    font-weight : bold;
+    }
+
+    .Hankooktext1{
+    color : #114165 ;
+    font-size : 17px; 
+    font-family: Arial , Tahoma , sans-serif ;
+    padding-left: 42px ;
+    padding-top: 130px;
+    font-weight : bold;
+    font-style : italic; 
+    }
+
+    .Hankook p {
+        color: #494e50;
+        padding-left: 20px;
+        font-size : 14px;
+        font-family: Lucida  , Tahoma , sans-serif ;
+    }
+    .Hankook img {
+        padding-top: 4px;
+        padding-left: 38px;
+        position: absolute;
+    } 
+    .HankookBg { 
+    position: absolute;
+    margin-left: 9px;
+    width: 135px;
+    height: 125px;
+    background: white;
+    border : 1px solid #bfc6c8;
+    border-radius : 5px;
+     }  
+
+
+     .boxbrendu{
+    margin-top: 488px;
+    margin-left: 770px;
+    width: 190px;
+    position :absolute;}
+
+    .brendu {
+        width: 180px;
+        height: 25px;
+        border : 1px solid #114165;
+     border-radius : 15px; 
+     box-shadow: 4px 4px 5px grey;}
+     
+     .brendu img {
+    padding-left: 1px;
+            
+     }
+
+     .brendname 
+     {font-size : 14px; 
+    font-family: Lucida  , Tahoma , sans-serif ;
+    color: #114165;
+    margin-top :2px;
+    margin-left: 29px;
+    padding: 1px ;
+    }
+    .formcontent form {
+         padding-top: 7px;
+         padding-left: 30px;
+    }
+    .formcontent div {
+         padding-bottom:  6px;
+    } 
+
+    .formcontent input {
+padding-left: 10px;
+padding-bottom: 3px;
+    } 
+    .shunu2 {
+        margin-top: 14px;
+        margin-left: 14px;
+        width: 133px;
+        height: 25px;
+        border : 1px solid #114165;
+     border-radius : 10px; 
+     }
+
+     .Disku2 {
+        margin-top: 8px;
+        margin-left: 11px;
+        width: 135px;
+        height: 25px;
+        border : 1px solid #114165;
+     border-radius : 12px; 
+     }
+    .submit input { 
+    margin-left: -5px;
+    margin-top: 16px;
+    padding: 6px;
+    background: linear-gradient( #1b5a7b, #0d3458 );
+    color: white ;
+    border-radius : 15px ;
+    border : 0px;
+    font-size : 11px; 
+    font-family: Arial  , Tahoma , sans-serif ;
+    width : 80px;
+    height: 27px;
+    } 
+    .brandLogo {
+    position: absolute;
+    margin-top: 1140px;
+    margin-left: 155px;
+    } 
+
+    .Logo1{
+    float :left;
+    padding-top: 15px;
+    padding-left: 6px;
+    } 
+
+    .Logo2{
+        float :left;
+    padding-left: 12px;
+    padding-top : 15px;
+    } 
+
+    .Logo3{
+    float :left;
+    padding-top: 16px;
+    padding-left: 11px;
+    } 
+
+    .Logo4{
+        float :left;
+    padding-left: 16px;
+    padding-top : 15px;
+    } 
+    .Logo5{
+    float :left;
+    padding-top: 16px;
+    padding-left: 12px;
+    } 
+    .Logo6{
+        float :left;
+    padding-left: 13px;
+    padding-top : 12px;
+    } 
+    .Logo7{
+    float :left;
+    padding-top: 17px;
+    padding-left: 13px;
+    } 
+    .Logo8{
+        float :left;
+    padding-left: 15px;
+    padding-top : 16px;
+    } 
+/*!------------------------footer----------------! */
+
+.footer  {
+    background: #213a4d  ;
+    border-radius: 3px;
+    position: absolute;
+    margin-top: 1203px;
+    margin-left: 43px;
+    width: 610px; 
+    height: 90px;
+    padding-left: 300px;  
+    padding-top : 8px;
+} 
+.footer span {
+font-size : 13px; 
+    font-family: Arial  , Tahoma , sans-serif ;
+    padding-left: 10px;
+    color :white ;
+} 
+.footer span:hover { 
+color : #52abcb;
+
+}
+.footer p {
+    font-size : 10px; 
+    font-family: Arial  , Tahoma , sans-serif ;
+    padding-left: 78px;
+    padding-top: 14px;
+    color : #754542;
+} 
